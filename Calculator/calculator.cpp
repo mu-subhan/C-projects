@@ -33,7 +33,12 @@ int res=a/b;
 cout<<"the res is "<<res<<endl;
 return res;
 }
-
+// Modulus
+int mode(int a,int b){
+    int res=a%b;
+    cout<<"the res is "<<res<<endl;
+return res;
+}
 
 int main(){
     int x,y;
@@ -45,4 +50,6 @@ int main(){
    subtraction(x,y);
    division(x,y);
    multiplcation(x,y);
+   mode(x,y);
+
 } 
